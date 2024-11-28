@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body id="body">
+    <h1>GPA Calculator</h1>
+    <p>
+      Welcome to GPA Calculator! Easily track and manage your GPA to stay on top
+      of your academic performance.
+    </p>
+    <hr />
+    <table>
+      <tr>
+        <td id="td1">Grade 1</td>
+        <td id="td2">
+          <label for="grade1"> </label>
+          <select name="grade1" id="grade1">
+            <option value="4">A(80% to 100%)</option>
+            <option value="3">B(65% to 79%)</option>
+            <option value="2">C(50% to 64%)</option>
+            <option value="1">D(0% to 49%)</option>
+          </select>
+        </td>
+        <td id="td3">
+          Credit value: <input min="1" max="5" type="number" id="input1" />
+        </td>
+      </tr>
+      <!-- row one -->
+      <tr>
+        <td id="td4">Grade 2</td>
+        <td id="td5">
+          <label for="grade2"> </label>
+          <select name="grade2" id="grade2">
+            <option value="4">A(80% to 100%)</option>
+            <option value="3">B(65% to 79%)</option>
+            <option value="2">C(50% to 64%)</option>
+            <option value="1">D(0% to 49%)</option>
+          </select>
+        </td>
+        <td id="td6">
+          Credit value: <input min="1" max="5" type="number" id="input2" />
+        </td>
+      </tr>
+      <!-- row two -->
+      <tr>
+        <td id="td7">Grade 3</td>
+        <td id="td8">
+          <label for="grade3"> </label>
+          <select name="grade3" id="grade3">
+            <option value="4">A(80% to 100%)</option>
+            <option value="3">B(65% to 79%)</option>
+            <option value="2">C(50% to 64%)</option>
+            <option value="1">D(0% to 49%)</option>
+          </select>
+        </td>
+        <td id="td9">
+          Credit value: <input min="1" max="5" type="number" id="input3" />
+        </td>
+      </tr>
+      <!-- row three-->
+      <tr>
+        <td id="td10">Grade 4</td>
+        <td id="td11">
+          <label for="grade4"> </label>
+          <select name="grade4" id="grade4">
+            <option value="4">A(80% to 100%)</option>
+            <option value="3">B(65% to 79%)</option>
+            <option value="2">C(50% to 64%)</option>
+            <option value="1">D(0% to 49%)</option>
+          </select>
+        </td>
+        <td id="td12">
+          Credit value: <input min="1" max="5" type="number" id="input4" />
+        </td>
+      </tr>
+      <!-- row four -->
+    </table>
+    <hr />
+    <button id="btn">Calculate</button>
+    <hr />
+    <p>You have a: <span id="output-area">---------</span> GPA</p>
+    <hr />
+    <button id="light">LIGHT MODE</button>
+    <button id="dark">DARK MODE</button>
+  </body>
+</html>
